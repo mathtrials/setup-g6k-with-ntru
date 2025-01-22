@@ -36,7 +36,7 @@ MAKE="make -j8" make     #“8 is number of threads”
 sudo ln -sf $(pwd)/sage /usr/local/bin  
 ```
 
-# G6k on github:
+## G6k on github:
 ``` console
 git clone https://github.com/fplll/g6k
 ```
@@ -62,3 +62,7 @@ sudo apt-get install libgmp3-dev
 sudo apt-get install libmpfr-dev libmpfr-doc libmpfr4 libmpfr4-dbg  
 ```
 
+## NTRU with Sieving on github:
+``` console
+git clone https://github.com/ElenaKirshanova/ntru_with_sieving
+```
