@@ -36,6 +36,11 @@ MAKE="make -j8" make     #“8 is number of threads”
 sudo ln -sf $(pwd)/sage /usr/local/bin  
 ```
 
+# G6k on github:
+``` console
+git clone https://github.com/fplll/g6k
+```
+
 ## To make fplll recognize 'qd':  
 In g6k ./bootstrap.sh file: edit ./bootstrap.sh file in g6k  
 ``` console
