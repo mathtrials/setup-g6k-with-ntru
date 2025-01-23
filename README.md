@@ -13,3 +13,7 @@ pip install mod sympy
 
 After setting up the G6K environment, copy ntru-with-sieving files into the G6K folder.
 Then, we can run ntru-instances using G6K using the commnad mentioned in run-lwe-ntru-instances file.
+
+
+### To setup cuda-toolkit(for G6k-GPU) refer:
+[NVIDIA](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local)
