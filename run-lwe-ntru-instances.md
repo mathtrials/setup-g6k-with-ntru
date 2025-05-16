@@ -39,3 +39,9 @@ python3 attack_ntru.py HRSS n --threads=64 --verbose=True
 ```console
 python3 attack_ntru.py HRSS n --bkz_alg=pump_n_jump --threads=64 --verbose=True
 ```
+
+## To run NTRU challenge i.e, if we want to provide the public key ourselves:
+```console
+python3 attack_ntru.py C n -q=q --bkz_alg=pump_n_jump --threads=64 --verbose=True --h="[...]"
+```
+Here h is the public key for which we want to recover secret keys.
