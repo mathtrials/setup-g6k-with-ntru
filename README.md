@@ -69,7 +69,10 @@ sudo apt-get install libgmp3-dev
 ``` console
 sudo apt-get install libmpfr-dev libmpfr-doc libmpfr4 libmpfr4-dbg  
 ```
-
+Then, run
+```console
+./bootstrap.sh [-j #]
+```
 
 We might need to manually install mod, sympy to solve lwe-instances.  
 Use the following command to install these in the G6K environment,
