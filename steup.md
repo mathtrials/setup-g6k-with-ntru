@@ -1,5 +1,5 @@
 # Setup-g6k-with-ntru
-### All these steps are for ubuntu 20.04 and might not work on news versions.
+### All these steps are for ubuntu 20.04 and might not work on newer versions.
 
 First do,  
 ``` console
